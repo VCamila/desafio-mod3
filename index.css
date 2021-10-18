@@ -176,7 +176,7 @@ font-weight: normal;
 width: 532px;
 height: 165px;
 padding: 0;  
-}
+ }
 }
 
 .contenedor-imagen {
@@ -187,8 +187,9 @@ padding: 0;
 }
 @media(min-width: 769px) {
     .contenedor-imagen {
-        height: 538px;
-        width: 720px;  
+        float:right;
+        padding: 145px 0;
+        margin-right: 90px;
     }
 }
 
@@ -200,9 +201,6 @@ padding: 0;
     .imagen-oido {
     height: 211px;
     width: 211px;
-    padding: 145px 0;
-    margin-left: 306px;
-    float: right;
     }
 }
 
