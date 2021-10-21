@@ -134,14 +134,26 @@ padding: 0 42px;
     width: 100%;
     background-color:#062424;
 }
+@media(min-width: 769px){
+    .section-dos {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
-.contenedor-sec-dos {}
+.contenedor-sec-dos {
+}
 @media(min-width: 769px){
     .contenedor-sec-dos {
         height: 538px;
         width:720px;
-        float: right;
-        margin-right: 40px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        margin-right: 301px;  
     }
 }
 
@@ -151,13 +163,14 @@ padding: 0 42px;
     color:#FAFAFA;
     text-align: center;
     padding: 55px 52px;
+    width: 271px;
+    height: 44px;
 }
 @media(min-width: 769px){
     .titulo-nombre {
-        text-align:left;
         padding:0;
-        margin:0;
-        margin-top: 132px;
+        margin-left:0;
+        text-align:right;
     }  
 }
 
@@ -176,6 +189,7 @@ font-weight: normal;
 width: 532px;
 height: 165px;
 padding: 0;  
+margin-left:90px;
  }
 }
 
@@ -187,9 +201,10 @@ padding: 0;
 }
 @media(min-width: 769px) {
     .contenedor-imagen {
-        float:right;
-        padding: 145px 0;
-        margin-right: 90px;
+    height: 538px;
+    width: 720px;
+    padding: 0;
+    margin-left: 306px;
     }
 }
 
@@ -443,25 +458,23 @@ width: 100%;
     background-color:#FFF7EB;
     height: 493px;
     width: 100%;
-    display: grid;
-    grid-template-rows: 10% 10%;
-    gap:70px;
+    display: flex;
+    flex-direction: column;
 }
 @media(min-width: 769px){
     .footer {
         height: 346px;
-        display: flex;
         justify-content: space-between;
+        flex-direction: row;
         padding: 70px;
         box-sizing: border-box;  
     }
 }
 
-
 .logo {
         width: 77px;
         height: 71px;
-        padding: 53px 0;
+        margin-top: 53px;
         margin-left: 20px;
 }
 @media(min-width: 769px){
@@ -479,18 +492,16 @@ width: 100%;
     width: 150px;
     height: 15px;
     margin-left: 20px;
+    display: flex;
+    flex-direction: column;
 }
-@media(min-width: 769px) {
-    .parrafo-footer {
-   margin-top: 90px;
-  margin-left: -1120px;
-  }
-}
-    
+
 .contenedores-redes-sociales {  
     width: 150px;
     height: 250px;
+    margin-top: 40px;
 }
+
 
 .titulo-logo {
     font-size: 16px;
@@ -499,6 +510,7 @@ width: 100%;
     vertical-align: middle;
     margin-left: 8px;
 }
+
     
 .imagen-instagram {
     height: 27px;
